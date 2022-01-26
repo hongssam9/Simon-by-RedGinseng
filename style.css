@@ -1,0 +1,173 @@
+body {
+  background: rgb(22, 20, 20);
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+h1 {
+  color: rgb(124, 164, 236);
+  font-size: 4em;
+  font-weight: bold;
+  font-family: "Papyrus", Fantasy;
+}
+
+.memoryButtContainer {
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px;
+  justify-content: center;
+   position: relative;
+   left: 30px;
+   top: -110px;
+}
+
+.memoryButt {
+  width: 100px;
+  height: 100px;
+  border: 3px solid white;
+  border-radius: 400px;
+}
+#blueButton {
+  border: 5px solid rgb(24, 158, 236);
+  opacity: 0.3;
+  position: relative;
+  top: 250px;
+  left: 120px;
+}
+
+#pinkButton {
+  border: 5px solid rgb(241, 117, 138);
+  opacity: 0.3;
+  position: relative;
+  top: 150px;
+  left: 20px;
+}
+
+#redButton {
+  border: 5px solid rgba(235, 57, 25, 0.815);
+  opacity: 0.3;
+  position: relative;
+  top: 250px;
+  left: -80px;
+}
+
+#purpleButton {
+  border: 5px solid rgb(195, 6, 195);
+  opacity: 0.3;
+  position: relative;
+  top: 170px;
+  left: 150px; 
+}
+
+#greenButton {
+  border: 5px solid rgba(60, 200, 25, 0.938);
+  opacity: 0.3;
+  position: relative;
+  top: 170px;
+  left: 90px
+}
+
+.startButton {
+  position: relative;
+  top: -150px;
+  opacity: 1;
+}
+
+.summary {
+  color: white;
+}
+
+#startButton {
+  padding: 10px 20px;
+  background: rgb(54, 48, 48);
+  color: white;
+}
+
+.counter {
+  color: rgb(35, 218, 202);
+  position: relative;
+  top: -410px;
+  left: 10px;
+  text-align: center;
+}
+
+#winner {
+  color: rgb(35, 218, 202);
+}
+#loser {
+  color: rgb(218, 56, 35);
+}
+
+#title {
+  position: relative;
+  top: -590px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 14rem;
+  background-color: rgb(46, 45, 45);
+  text-align: center;
+  opacity: 1;
+  pointer-events: auto;
+  transition: all 250ms ease;
+  width: 150px;
+  height: 150px;
+}
+
+.title_start_page{
+  position: relative;
+  top: -200px;
+  left: -50px;
+}
+
+.summary {
+  position: relative;
+  top: -200px;
+}
+
+.againButton {
+  position: relative;
+  /* left: 987px; */
+  top: -1100px;
+  display: block;
+  margin-left: auto;
+ margin-right: auto; 
+  padding: 10px 10px;
+  background-color: gray;
+  color: white;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.condImage {
+  position: relative;
+  top: -630px;
+}
+
+#loserImage {
+  opacity: 0;
+  width: 120px;
+  height: 120px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 50%;
+}
+
+#winnerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: -750px;
+  width: 120px;
+  height: 120px;
+  opacity: 0;
+  border-radius: 50%; 
+}
+
+#top-title {
+  text-align: center;
+}
